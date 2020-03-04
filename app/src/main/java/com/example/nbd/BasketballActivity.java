@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class BasketballActivity extends AppCompatActivity {
 
@@ -14,7 +15,7 @@ public class BasketballActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.basketball_layout);
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
         Button shootingSkills = findViewById(R.id.shooting);
         Button jumpPlate = findViewById(R.id.jumpPlate);
         Button dribblingSkills = findViewById(R.id.dribbling);

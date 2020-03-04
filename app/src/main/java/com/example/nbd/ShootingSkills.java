@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class ShootingSkills extends AppCompatActivity {
 
@@ -27,7 +28,7 @@ public class ShootingSkills extends AppCompatActivity {
         EditText spotFour = findViewById(R.id.spotTwo);
         String spotFourNum = spotFour.getText().toString();
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

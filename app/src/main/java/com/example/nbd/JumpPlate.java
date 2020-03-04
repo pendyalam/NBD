@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class JumpPlate extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class JumpPlate extends AppCompatActivity {
         EditText measureFatigue = findViewById(R.id.measureFatigue);
         String measureFatigueNum = measureFatigue.getText().toString();
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

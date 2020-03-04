@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class ShootingPower extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class ShootingPower extends AppCompatActivity {
         EditText radarGunNon = findViewById(R.id.radarGunNon);
         String radarGunNonNum = radarGunNon.getText().toString();
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

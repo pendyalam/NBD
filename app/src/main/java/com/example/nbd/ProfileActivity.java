@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -27,7 +28,7 @@ public class ProfileActivity extends AppCompatActivity {
         EditText position = findViewById(R.id.position);
         String positionInput = position.getText().toString();
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override

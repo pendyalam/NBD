@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 public class ProAgility extends AppCompatActivity {
 
@@ -27,7 +28,7 @@ public class ProAgility extends AppCompatActivity {
         EditText watchRight = findViewById(R.id.watchRight);
         String watchRightNum = watchRight.getText().toString();
 
-        Button home = findViewById(R.id.home);
+        ImageButton home = findViewById(R.id.home);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
