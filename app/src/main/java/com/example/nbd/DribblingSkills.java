@@ -8,27 +8,26 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ProfileActivity extends AppCompatActivity {
+public class DribblingSkills extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_layout);
+        setContentView(R.layout.dribblingskills_layout);
 
-        EditText age = findViewById(R.id.age);
-        String ageInput = age.getText().toString();
+        EditText halfDom = findViewById(R.id.halfDom);
+        String halfDomNum = halfDom.getText().toString();
 
-        EditText gender = findViewById(R.id.gender);
-        String genderInput = gender.getText().toString();
+        EditText halfNon = findViewById(R.id.halfNon);
+        String halfNonNum = halfNon.getText().toString();
 
-        EditText varsity = findViewById(R.id.varsity);
-        String varsityInput = varsity.getText().toString();
+        EditText zigBall = findViewById(R.id.zigBall);
+        String zigBallNum = zigBall.getText().toString();
 
-        EditText position = findViewById(R.id.position);
-        String positionInput = position.getText().toString();
+        EditText zigNoBall = findViewById(R.id.zigNoBall);
+        String zigNoBallNum = zigNoBall.getText().toString();
 
         Button home = findViewById(R.id.home);
-
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -8,27 +8,26 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ProAgility extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_layout);
+        setContentView(R.layout.proagility_layout);
 
-        EditText age = findViewById(R.id.age);
-        String ageInput = age.getText().toString();
+        EditText laserLeft = findViewById(R.id.laserLeft);
+        String laserLeftNum = laserLeft.getText().toString();
 
-        EditText gender = findViewById(R.id.gender);
-        String genderInput = gender.getText().toString();
+        EditText laserRight = findViewById(R.id.laserRight);
+        String laserRightNum = laserRight.getText().toString();
 
-        EditText varsity = findViewById(R.id.varsity);
-        String varsityInput = varsity.getText().toString();
+        EditText watchLeft = findViewById(R.id.watchLeft);
+        String watchLeftNum = watchLeft.getText().toString();
 
-        EditText position = findViewById(R.id.position);
-        String positionInput = position.getText().toString();
+        EditText watchRight = findViewById(R.id.watchRight);
+        String watchRightNum = watchRight.getText().toString();
 
         Button home = findViewById(R.id.home);
-
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

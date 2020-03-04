@@ -6,48 +6,39 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ProfileActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Profile Setup:"
-        android:textSize="30dp"
-        android:textStyle="bold"/>
+    tools:context=".ShootingSkills">
 
     <EditText
-        android:id="@+id/age"
+        android:id="@+id/spotOne"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Age"
+        android:text="Enter Number of Shots - Spot 1"
         android:gravity="center"
         android:inputType="number"/>
 
     <EditText
-        android:id="@+id/gender"
+        android:id="@+id/spotTwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Gender"
+        android:text="Enter Number of Shots - Spot 2"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
+        android:inputType="number"/>
 
     <EditText
-        android:id="@+id/varsity"
+        android:id="@+id/spotThree"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="JV or Varsity"
+        android:text="Enter Number of Shots - Spot 3"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
+        android:inputType="number"/>
 
     <EditText
-        android:id="@+id/position"
+        android:id="@+id/spotFour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Position"
+        android:text="Enter Number of Shots - Spot 4"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
+        android:inputType="number"/>
 
     <Button
         android:id="@+id/home"

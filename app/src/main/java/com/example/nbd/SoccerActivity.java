@@ -31,6 +31,18 @@ public class SoccerActivity extends AppCompatActivity {
                 openBallTapsActivity();
             }
         });
+        shootingPower.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openShootingPowerActivity();
+            }
+        });
+        proAgility.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openProAgilityActivity();
+            }
+        });
     }
 
     public void openActivity() {
@@ -40,6 +52,16 @@ public class SoccerActivity extends AppCompatActivity {
 
     public void openBallTapsActivity(){
         Intent intent = new Intent(this, BallTaps.class);
+        startActivity(intent);
+    }
+
+    public void openShootingPowerActivity(){
+        Intent intent = new Intent(this, ShootingPower.class);
+        startActivity(intent);
+    }
+
+    public void openProAgilityActivity(){
+        Intent intent = new Intent(this, ProAgility.class);
         startActivity(intent);
     }
 }

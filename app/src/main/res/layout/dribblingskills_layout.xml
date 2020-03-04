@@ -6,49 +6,58 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ProfileActivity">
+    tools:context=".DribblingSkills">
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/HalfCourt"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Profile Setup:"
-        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Half-Court Drill:"
+        android:textSize="30sp"
         android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/age"
+        android:id="@+id/halfDom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Age"
+        android:text="Enter Time - Domininant"
         android:gravity="center"
         android:inputType="number"/>
 
     <EditText
-        android:id="@+id/gender"
+        android:id="@+id/halfNon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Gender"
+        android:text="Enter Time - Non-Dominant"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/ZigZag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Zig-Zag Cone Drill:"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/varsity"
+        android:id="@+id/zigBall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="JV or Varsity"
+        android:text="Enter Time - With Ball"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
+        android:inputType="number"/>
 
     <EditText
-        android:id="@+id/position"
+        android:id="@+id/zigNoBall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Position"
+        android:text="Enter Time - No Ball"
         android:gravity="center"
-        android:inputType="textShortMessage"/>
-
+        android:inputType="number"/>
     <Button
         android:id="@+id/home"
         android:layout_width="wrap_content"

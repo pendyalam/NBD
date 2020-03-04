@@ -8,27 +8,26 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ProfileActivity extends AppCompatActivity {
+public class ShootingSkills extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.profile_layout);
+        setContentView(R.layout.shootingskills_layout);
 
-        EditText age = findViewById(R.id.age);
-        String ageInput = age.getText().toString();
+        EditText spotOne = findViewById(R.id.spotOne);
+        String spotOneNum = spotOne.getText().toString();
 
-        EditText gender = findViewById(R.id.gender);
-        String genderInput = gender.getText().toString();
+        EditText spotTwo = findViewById(R.id.spotTwo);
+        String spotTwoNum = spotTwo.getText().toString();
 
-        EditText varsity = findViewById(R.id.varsity);
-        String varsityInput = varsity.getText().toString();
+        EditText spotThree = findViewById(R.id.spotThree);
+        String spotThreeNum = spotThree.getText().toString();
 
-        EditText position = findViewById(R.id.position);
-        String positionInput = position.getText().toString();
+        EditText spotFour = findViewById(R.id.spotTwo);
+        String spotFourNum = spotFour.getText().toString();
 
         Button home = findViewById(R.id.home);
-
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

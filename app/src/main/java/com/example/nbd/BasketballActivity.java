@@ -25,10 +25,42 @@ public class BasketballActivity extends AppCompatActivity {
                 openActivity();
             }
         });
+        shootingSkills.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openShootingSkillsActivity();
+            }
+        });
+        jumpPlate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openJumpPlateActivity();
+            }
+        });
+        dribblingSkills.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { openDribblingSkillsActivity();
+            }
+        });
     }
 
     public void openActivity() {
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void openShootingSkillsActivity() {
+        Intent intent = new Intent(this, ShootingSkills.class);
+        startActivity(intent);
+    }
+
+    public void openJumpPlateActivity() {
+        Intent intent = new Intent(this, JumpPlate.class);
+        startActivity(intent);
+    }
+
+    public void openDribblingSkillsActivity() {
+        Intent intent = new Intent(this, DribblingSkills.class);
         startActivity(intent);
     }
 }
