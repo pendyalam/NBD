@@ -6,22 +6,25 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".ShootingPower">
 
     <EditText
         android:id="@+id/radarGunDom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Speed - Dominant Foot"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/radarGunNon"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Speed - Non-Dominant Foot"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <Button

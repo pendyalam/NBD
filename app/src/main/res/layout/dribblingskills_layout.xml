@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".DribblingSkills">
 
 
@@ -20,18 +21,20 @@
 
     <EditText
         android:id="@+id/halfDom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Time - Domininant"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/halfNon"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Time - Non-Dominant"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <TextView
@@ -45,18 +48,20 @@
 
     <EditText
         android:id="@+id/zigBall"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Time - With Ball"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/zigNoBall"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Time - No Ball"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
     <Button
         android:id="@+id/home"

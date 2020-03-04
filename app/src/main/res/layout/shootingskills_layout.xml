@@ -6,38 +6,43 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".ShootingSkills">
 
     <EditText
         android:id="@+id/spotOne"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Number of Shots - Spot 1"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/spotTwo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Number of Shots - Spot 2"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/spotThree"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Number of Shots - Spot 3"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/spotFour"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Number of Shots - Spot 4"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <Button

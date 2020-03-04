@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".ProfileActivity">
 
     <TextView
@@ -14,39 +15,44 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Profile Setup:"
+        android:textColor="@color/rpiRed"
         android:textSize="30dp"
         android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/age"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Age"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/gender"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Gender"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="textShortMessage"/>
 
     <EditText
         android:id="@+id/varsity"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="JV or Varsity"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="textShortMessage"/>
 
     <EditText
         android:id="@+id/position"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Position"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="textShortMessage"/>
 
     <Button

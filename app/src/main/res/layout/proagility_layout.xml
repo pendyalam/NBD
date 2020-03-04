@@ -6,38 +6,43 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".ProAgility">
 
     <EditText
         android:id="@+id/laserLeft"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Laser Speed - Left Side"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/laserRight"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Laser Speed - Right Side"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/watchLeft"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Stopwatch Speed - Left Side"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <EditText
         android:id="@+id/watchRight"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter Stopwatch Speed - Right Side"
         android:gravity="center"
+        android:backgroundTint="@color/rpiRed"
         android:inputType="number"/>
 
     <Button

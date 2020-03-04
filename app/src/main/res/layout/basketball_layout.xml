@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".BasketballActivity">
 
     <TextView
@@ -13,7 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Basketball Drills:"/>
+        android:text="Basketball Drills:"
+        android:textColor="@color/rpiRed"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
 
     <Button
         android:id="@+id/home"
