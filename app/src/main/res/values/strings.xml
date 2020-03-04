@@ -1,5 +1,3 @@
 <resources>
     <string name="app_name">NBD</string>
-    <color name="rpiRed">#AC2429</color>
-    <color name="rpiWhite">#fffff</color>
 </resources>

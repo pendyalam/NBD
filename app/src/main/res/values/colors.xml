@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#AC2429</color>
+    <color name="colorAccent">#9ea2a2</color>
+    <color name="rpiRed">#AC2429</color>
+    <color name="rpiWhite">#ffffff</color>
+    <color name="rpiGrey">#9ea2a2</color>
 </resources>

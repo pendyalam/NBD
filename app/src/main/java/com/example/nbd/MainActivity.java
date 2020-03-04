@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -14,9 +15,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button soccer = findViewById(R.id.soccer);
-        Button basketball = findViewById(R.id.basketball);
-        Button profile = findViewById(R.id.profile);
+        ImageButton soccer = findViewById(R.id.soccer);
+        ImageButton basketball = findViewById(R.id.basketball);
+        ImageButton profile = findViewById(R.id.profile);
 
         soccer.setOnClickListener(new View.OnClickListener() {
             @Override

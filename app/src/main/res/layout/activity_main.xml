@@ -5,26 +5,38 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:gravity="center"
-    android:orientation="horizontal"
-    android:background="@color/rpiRed"
+    android:orientation="vertical"
+    android:background="@color/rpiWhite"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
         android:id="@+id/soccer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Soccer" />
+        android:src="@drawable/soccer"
+        android:padding="20dp" />
 
-    <Button
+    <ImageButton
         android:id="@+id/basketball"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Basketball" />
+        android:src="@drawable/basketball"
+        android:padding="20dp"/>
 
-    <Button
+    <ImageButton
         android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Profile" />
+        android:src="@drawable/profile"
+        android:padding="20dp"/>
+
+
 
 </LinearLayout>
